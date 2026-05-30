@@ -23,4 +23,8 @@ Suite of tools in python for gnucobol, gcobol development
   - linting
   - etc
 
-    
+## Project Links
+
+- [GitHub](https://github.com/matthewdeanmartin/mainframer)
+- [PyPI](https://pypi.org/project/mainframer/)
+- [Bug Tracker](https://github.com/matthewdeanmartin/mainframer/issues)
