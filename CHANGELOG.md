@@ -7,9 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Added
+- Python 3.15 support.
+
 ### Changed
 
-- Replace direct HTTPX clients with HTTPX2; current releases use the OS trust store; Python 3.9 selects the older HTTPX2 2.0 release.
+- Requires Python 3.11 or newer; Python 3.8-3.10 are no longer supported.
+- Replace direct HTTPX clients with HTTPX2; current releases use the OS trust store.
 
 ## [0.2.0] - 2024-12-27
 
