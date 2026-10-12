@@ -25,7 +25,7 @@ dependencies = [
     "toml>=0.10.2",
     "tomli-w",
     "rich>=13.9.4",
-    "httpx>=0.28.1",
+    "httpx2>=2.0,<3",
     "requests>=2.32.3",
     "shellingham>=1.5.4",
 ]

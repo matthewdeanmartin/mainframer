@@ -3,8 +3,8 @@ import os
 import subprocess
 from pathlib import Path
 
-import httpx
-from httpx import HTTPStatusError
+import httpx2
+from httpx2 import HTTPStatusError
 from rich.console import Console
 
 from mainframer.manage_config import DEFAULT_INSTALL_DIR
@@ -55,7 +55,7 @@ def download_file(url: str, dest: Path) -> bool:
     """
     console.print(f"[cyan]Downloading {url} to {dest}...[/cyan]")
     try:
-        response = httpx.get(url, timeout=10)
+        response = httpx2.get(url, timeout=10)
         response.raise_for_status()
         with open(dest, "wb") as f:
             f.write(response.content)
